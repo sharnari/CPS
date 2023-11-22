@@ -102,12 +102,15 @@ body {
   align-items: center;
 }
 
-.block-title__vertical-line {
-  align-items: center;
+
+.block-title__highlight {
+  background-image: url("../img/main/highlight.svg");
+  width: 4px;
+  height: 40px;
 }
 
 .block-title__title {
-  text-align: center;  
+  text-align: center; 
 }
 
 .block-title__title--font--title {
@@ -129,9 +132,11 @@ body {
   list-style-type: none;
 }
 
+
 .nav__list::-webkit-scrollbar {
   display: none;
 }
+
 
 .nav__item {
   display: flex;
@@ -186,7 +191,7 @@ body {
 }
 
 .read-more::before {
-  content: url("/../img/main/expand.svg");
+  content: url("../img/main/expand.svg");
   position: relative;
   top: 6px;
   right: 5px;
