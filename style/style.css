@@ -90,7 +90,8 @@ body {
   align-items: center;
 }
 
-.divider {
+.divider::before {
+  content: url("../img/header/divider.svg");
   width: 15%;
   display: flex;
   justify-content: center;
