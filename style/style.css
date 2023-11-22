@@ -39,27 +39,27 @@ body {
 }
 
 .menu-button__button--background--burger {
-  background-image: url("/../img/__header/burger.svg");
+  background-image: url("../img/header/burger.svg");
 }
 
 .menu-button__button--background--call {
-    background-image: url("/../img/__header/call.svg");
+    background-image: url("../img/header/call.svg");
 }
 
 .menu-button__button--background--chat {
-    background-image: url("/../img/__header/chat.svg");
+    background-image: url("../img/header/chat.svg");
 }
 
 .menu-button__button--background--profile {
-    background-image: url("/../img/__header/profile.svg");
+    background-image: url("../img/header/profile.svg");
 }
 
 .menu-button__button--background--repair {
-    background-image: url("/../img/__header/repair.svg");
+    background-image: url("../img/header/repair.svg");
 }
 
 .menu-button__button--background--checkstatus {
-    background-image: url("/../img/__header/checkstatus.svg");
+    background-image: url("../img/header/checkstatus.svg");
 }
 
 .content-center {
@@ -186,7 +186,7 @@ body {
 }
 
 .read-more::before {
-  content: url("/../img/__main/expand.svg");
+  content: url("/../img/main/expand.svg");
   position: relative;
   top: 6px;
   right: 5px;
