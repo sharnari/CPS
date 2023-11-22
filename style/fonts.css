@@ -3,35 +3,8 @@
     font-style: normal;
     src:
         local("TTLakes-Regular"),
-        url("../fonts/TTLakes-Regular.woff") format("woff");
-    letter-spacing: -0.6px;
-}
-
-@font-face {
-    font-family: "TT Lakes Bold";
-    font-style: normal;
-    src:
-        local("TTLakes-Bold"),
-        url("../fonts/TTLakes-Bold.woff") format("woff");
-    letter-spacing: -0.6px;
-}
-
-@font-face {
-    font-family: "TT Lakes Medium";
-    font-style: normal;
-    src:
-        local("TTLakes-Medium"),
-        url("../fonts/TTLakes-Medium.woff") format('woff');
-    font-weight: 100;
-    letter-spacing: -0.6px;
-}
-
-@font-face {
-    font-family: "TT Lakes Demi";
-    font-style: normal;
-    src:
-        local("TTLakes-Demi"),
-        url("../fonts/TTLakes-DemiBold.woff") format('woff');
-    font-weight: 100;
+        url("../fonts/TTLakes-Regular.woff") format("woff"),
+        url("../fonts/TTLakes-Regular.ttf") format("ttf"),
+        url("../fonts/TTLakes-Regular.eot") format("eot");
     letter-spacing: -0.6px;
 }

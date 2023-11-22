@@ -115,9 +115,10 @@ body {
 }
 
 .block-title__title--font--title {
-    font-family: "TT Lakes Bold";
-    font-size: 14px;
-    line-height: 40px;
+  font-family: "TT Lakes";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 40px;
 }
 
 .nav {
