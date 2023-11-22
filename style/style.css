@@ -185,9 +185,10 @@ body {
 .read-more {
   font-family: "TT Lakes Demi";
   color: #1B1C21;
-  margin: 0;
   margin-left: 5px;
   margin-bottom: 30px;
+  border: 0;
+  background-color: transparent;
 
 }
 
@@ -213,6 +214,7 @@ body {
     visibility: visible;
     display: flex;
     width: 10%;
+    justify-content: center;
   }
 
   .inner-head__left-side {
