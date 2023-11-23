@@ -294,11 +294,16 @@ body {
     display: none;
   }
 
+  .menu-button__button {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .description-of-menu-button {
     font-family: "TT Lakes"; /*demi*/
     font-weight: 600;
     display: flex;
-    margin-right: -1.2em;
+    margin-right: 1.2em;
   }
   
   .main {
@@ -313,4 +318,10 @@ body {
   .description__image {
     width: 45%;
   }
+  .label {
+    display: flex;
+    align-items: center;
+  }
+  
+
 }
