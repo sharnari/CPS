@@ -115,7 +115,6 @@ body {
 }
 
 .block-title__title--font--title {
-  font-family: "TT Lakes"; /*bold*/
   font-weight: bold;
   font-size: 14px;
   line-height: 40px;
@@ -149,7 +148,6 @@ body {
 }
 
 .nav__link--font--li-link {
-  font-family: "TT Lakes"; /*medium*/
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
@@ -185,7 +183,6 @@ body {
 }
 
 .description__more {
-  font-family: "TT Lakes"; /*demi*/
   font-weight: 600;
   color: #1B1C21;
   border: 0;
@@ -305,7 +302,6 @@ body {
   }
 
   .description-of-menu-button {
-    font-family: "TT Lakes"; /*demi*/
     font-weight: 600;
     display: flex;
     margin-right: 1.2em;
