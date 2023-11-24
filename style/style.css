@@ -208,7 +208,20 @@ body {
 
 .only-big-screen--text {
   display: none;
-} 
+}
+
+@media screen and (max-width: 767px) {
+  .scroll-menu > .content-center--out-margins {
+    margin: 0;
+  }
+  
+  .scroll-menu > .content-center {
+    width: 100%;
+  }
+  .nav__list {
+    padding-left: 20px;
+  } 
+}
 
 @media screen and (min-width: 768px) {
   .inner-head__left-side > .divider {
