@@ -36,6 +36,9 @@ body {
 
 .menu-button--display--none {
   display: none;
+  justify-content: space-between;
+  width: 53%;
+  align-items: center;
 }
 
 .menu-button__button--background--burger {
