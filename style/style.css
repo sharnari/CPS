@@ -218,6 +218,7 @@ body {
   height: auto;
 }
 
+
 @media screen and (max-width: 767px) {
   .scroll-menu > .content-center--out-margins {
     margin: 0;
@@ -328,9 +329,23 @@ body {
     margin-right: 1.2em;
   }
   
-  .main {
+  /* .main {
     margin-top: -60px;
   }
+   */
+
+  .block-title {
+    width: 50%;
+  }
+  
+  .block-title--margins--set {
+    margin-top: -60px;
+  }
+
+  .block-title .content-center {
+    width: 90%;
+  }
+
   .only-big-screen {
     display: flex;
   }
