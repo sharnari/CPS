@@ -213,6 +213,11 @@ body {
   display: none;
 }
 
+.description__image .image {
+  max-width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 767px) {
   .scroll-menu > .content-center--out-margins {
     margin: 0;
@@ -266,8 +271,8 @@ body {
   }
 
   .description__image {
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex; */
+    /* justify-content: flex-end; */
   }
 
   .description__image .image {
@@ -340,5 +345,9 @@ body {
     align-items: center;
   }
   
+  .description__image .image {
+    width: 100%;
+    height: auto;
+  }
 
 }
