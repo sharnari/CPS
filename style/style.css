@@ -365,4 +365,13 @@ body {
     height: auto;
   }
 
+  .nav__list {
+    flex-wrap: wrap;
+    width: 105%;
+  }
+
+  .nav--out-margins {
+    margin-bottom: 5%;
+  }
+
 }
