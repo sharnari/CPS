@@ -355,10 +355,6 @@ body {
   .description__image {
     width: 45%;
   }
-  .label {
-    display: flex;
-    align-items: center;
-  }
   
   .description__image .image {
     width: 100%;
