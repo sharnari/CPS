@@ -151,7 +151,7 @@ body {
   align-items: center;
 }
 
-.nav__link--font--li-link {
+ .nav__link {
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
