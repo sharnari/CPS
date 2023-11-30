@@ -272,16 +272,20 @@ body {
     margin: 0;
   }
 
-  .description__image {
-    /* display: flex; */
-    /* justify-content: flex-end; */
-  }
-
   .description__image .image {
     border-radius: 5px;
   }
   .no-mobile {
     display: inline-block;
+  }
+
+  .nav__list {
+    flex-wrap: wrap;
+    width: 105%;
+  }
+
+  .nav--out-margins {
+    margin-bottom: 7%;
   }
 }
 
@@ -354,10 +358,10 @@ body {
     height: auto;
   }
 
-  .nav__list {
+  /* .nav__list {
     flex-wrap: wrap;
     width: 105%;
-  }
+  } */
 
   .nav--out-margins {
     margin-bottom: 5%;
